@@ -14,13 +14,18 @@ sortedList1 = sorted(list1)
 sortedList2 = sorted(list2)
     
 sum = 0  
+similarityScore = 0
 length = len(sortedList1)
 index = 0
 #calculate the difference and add up to the sum
 while index != length:   
   sum += abs(sortedList1[index] - sortedList2[index])
+  similarityScore += (sortedList1[index] * sortedList2.count(sortedList1[index]))
   index += 1
 
+#first answer
 print(sum)
+#second answer
+print(similarityScore)
 
 f.close()
