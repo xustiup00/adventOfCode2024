@@ -5,9 +5,9 @@ f = open("input.txt", "r")
 
 #divide numbers into lists
 for line in f:
-  splited = line.split()
-  list1.append(int(splited[0]))
-  list2.append(int(splited[1]))
+  splitted = line.split()
+  list1.append(int(splitted[0]))
+  list2.append(int(splitted[1]))
           
 #sort lists
 sortedList1 = sorted(list1)
