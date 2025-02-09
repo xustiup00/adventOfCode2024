@@ -1,4 +1,4 @@
-f = open("/home/polina/Desktop/adventOfCode2024/input.txt", "r")
+f = open("input.txt", "r")
 rulesRead = False
 
 #List to save rules
