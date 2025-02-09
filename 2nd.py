@@ -31,7 +31,7 @@ def check(list, increasing):
     return safe
 
 
-f = open("/home/polina/Desktop/adventOfCode2024/input.txt", "r")
+f = open("input.txt", "r")
 safeLines = 0
 for line in f:
     splitted = line.split()

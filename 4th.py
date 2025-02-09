@@ -1,4 +1,4 @@
-f = open("/home/polina/Desktop/adventOfCode2024/input.txt", "r")
+f = open("input.txt", "r")
 count = 0
 pattern = "XMAS"
 dirChange = [[0, 1], [1, 0], [0, -1], [-1, 0], [1, 1], [-1, 1], [1, -1], [-1, -1]]
